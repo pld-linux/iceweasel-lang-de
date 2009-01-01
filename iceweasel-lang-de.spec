@@ -1,10 +1,10 @@
 %define		_lang		de
 Summary:	German resources for Iceweasel
-Summary(pl.UTF-8):	Niemieckie pliki językowe dla Iceweasel
+Summary(pl.UTF-8):	Niemieckie pliki językowe dla Iceweasela
 Name:		iceweasel-lang-%{_lang}
 Version:	3.0.5
 Release:	1
-License:	GPL
+License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
 # Source0-md5:	4ef9d16b9c8efdfc55e9a908a11ca8f7
@@ -25,7 +25,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 German resources for Iceweasel.
 
 %description -l pl.UTF-8
-Niemieckie pliki językowe dla Iceweasel.
+Niemieckie pliki językowe dla Iceweasela.
 
 %prep
 
