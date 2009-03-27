@@ -2,12 +2,12 @@
 Summary:	German resources for Iceweasel
 Summary(pl.UTF-8):	Niemieckie pliki językowe dla Iceweasela
 Name:		iceweasel-lang-%{_lang}
-Version:	3.0.7
+Version:	3.0.8
 Release:	1
 License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	805ba5f9541e49eab5399334193e8aa2
+# Source0-md5:	169d874742059da5df9b9586b9e9778e
 URL:		http://www.mozilla.org/
 BuildRequires:	sed >= 4.0
 BuildRequires:	unzip
